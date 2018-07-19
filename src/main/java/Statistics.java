@@ -60,10 +60,11 @@ public class Statistics {
     /**
      * Prints the array.
      *
-     * @param array array that will be printed
+     * @param array     array that will be printed
+     * @param string    string that will be printed before the array
      */
-    static void out(double[] array){
-        System.out.println("Array:");
+    static void out(double[] array, String string){
+        System.out.println("From " + string);
         for (double value : array) {
             System.out.println( value);
         }
@@ -131,12 +132,7 @@ public class Statistics {
      * @param arrayList arrayList that will be sorted
      * @return          sorted arrayList
      */
-    static ArrayList sortArrayList(ArrayList<Double> arrayList){
-//        DescriptiveStatistics stats = new DescriptiveStatistics();
-//        for (int i = 0; i < arrayList.size(); i++) {
-//            stats.addValue(arrayList.get(i));
-//        }
-//        return stats.getSortedValues();
+    static ArrayList<Double> sortArrayList(ArrayList<Double> arrayList){
         Collections.sort(arrayList);
         return arrayList;
     }
@@ -145,8 +141,10 @@ public class Statistics {
      * Prints the arrayList.
      *
      * @param arrayList arrayList that will be printed
+     * @param string    string that will be printed before the array
      */
-    static void out(ArrayList<Double> arrayList){
+    static void out(ArrayList<Double> arrayList, String string){
+        System.out.println("From " + string);
         for (double value : arrayList) {
             System.out.println( value);
         }

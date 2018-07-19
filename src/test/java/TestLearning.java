@@ -1,10 +1,17 @@
 import static org.junit.Assert.*;
 import org.junit.Test;
+import org.junit.jupiter.api.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class TestLearning {
+
+
+    @BeforeAll
+    public static void init(){
+        System.out.println("Before All init() method called");
+    }
 
     @Test
     public void shouldAnswerWithTrue()
@@ -72,12 +79,18 @@ public class TestLearning {
             array[i] = Math.random();// * (i - array.length/2 + 0.5) / 100;
         }
         array = new double[]{6,1,4,3,2,5};
+
         double[] ama1 = new double[0];
         ama1 = AscendingMinimaAlgorithm.ascendingMinima(array, ama1);
         double[] ama2 = AscendingMinimaAlgorithm.ascendingMinima(array);
         double[] solution = new double[]{1,2,5};
         assertTrue(Arrays.equals(solution, ama1));
         assertTrue(Arrays.equals(solution, ama2));
-
     }
+
+
+
+
+
+
 }
