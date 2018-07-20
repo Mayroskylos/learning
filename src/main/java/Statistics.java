@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 public class Statistics {
+
     /**
      * Finds the minimum value of an array.
      *
@@ -58,13 +59,24 @@ public class Statistics {
     }
 
     /**
+     * Prints the array with a tag.
+     *
+     * @param array     array that will be printed
+     * @param tag       tag that will be printed before the array
+     */
+    static void out(double[] array, String tag){
+        System.out.println("[" + tag.toUpperCase() + "]  ");
+        for (double value : array) {
+            System.out.println( value);
+        }
+    }
+
+    /**
      * Prints the array.
      *
      * @param array     array that will be printed
-     * @param string    string that will be printed before the array
      */
-    static void out(double[] array, String string){
-        System.out.println("From " + string);
+    static void out(double[] array){
         for (double value : array) {
             System.out.println( value);
         }
@@ -138,13 +150,24 @@ public class Statistics {
     }
 
     /**
-     * Prints the arrayList.
+     * Prints the arrayList
      *
      * @param arrayList arrayList that will be printed
-     * @param string    string that will be printed before the array
      */
-    static void out(ArrayList<Double> arrayList, String string){
-        System.out.println("From " + string);
+    static void out(ArrayList<Double> arrayList){
+        for (double value : arrayList) {
+            System.out.println( value);
+        }
+    }
+
+    /**
+     * Prints the arrayList with a tag.
+     *
+     * @param arrayList arrayList that will be printed
+     * @param tag       tag that will be printed before the array
+     */
+    static void out(ArrayList<Double> arrayList, String tag){
+        System.out.println("[" + tag.toUpperCase() + "]  ");
         for (double value : arrayList) {
             System.out.println( value);
         }
