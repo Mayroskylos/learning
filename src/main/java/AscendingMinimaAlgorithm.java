@@ -99,6 +99,6 @@ public class AscendingMinimaAlgorithm {
      * @return          the index of the minimum value in the arrayList
      */
     private static int minimumIndex(ArrayList<Double> arrayList) {
-        return arrayList.indexOf(Statistics.minOfArrayList(arrayList));
+        return arrayList.lastIndexOf(Statistics.minOfArrayList(arrayList));
     }
 }
