@@ -13,16 +13,20 @@ public class LearnGUI {
     private JList<Object> displayList;
     private JTextArea displayText;
     private JPanel panelMain;
+    private JList<Object> displayAMA;
+    private JButton AMABtn;
     private int size = 6;
     private double[] array = new double[size];
+    private double[] ascendingMinimaArray = new double[0];
     private ArrayList<Double> arrayList = new ArrayList<>(size);
+    private ArrayList<Double> ascendingMinimaArrayList = new ArrayList<>();
     private boolean arrayValues = true;  // if true then array else arrayList
-    private DefaultListModel<Object> listModel = new DefaultListModel<>();
 
     private LearnGUI() {
         createArrayBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                DefaultListModel<Object> listModel = new DefaultListModel<>();
                 listModel.clear();
                 for(int i=0;i<size;i++)
                 {
@@ -44,13 +48,7 @@ public class LearnGUI {
                     arrayList.add(Math.random() * 100 - 50);
                 }
                 arrayValues = false;
-//                for (int i = 0; i < size; i++)
-//                {
-//                    listModel.addElement(arrayList.get(i));
-//                }
-//                displayList.setModel(listModel);
                 displayList.setListData(arrayList.toArray());
-
             }
         });
 
@@ -93,6 +91,24 @@ public class LearnGUI {
                     displayText.setText("Median is " + String.valueOf(Statistics.medianOfArray(array)));
                 } else {
                     displayText.setText("Median is " + String.valueOf(Statistics.medianOfArrayList(arrayList)));
+                }
+            }
+        });
+
+        AMABtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (arrayValues){
+                    ascendingMinimaArray = AscendingMinimaAlgorithm.ascendingMinima(array);
+                    DefaultListModel<Object> listModel = new DefaultListModel<>();
+                    listModel.clear();
+                    for (double value: ascendingMinimaArray) {
+                        listModel.addElement(value);
+                    }
+                    displayAMA.setModel(listModel);
+                } else {
+                    ascendingMinimaArrayList = AscendingMinimaAlgorithm.ascendingMinima(arrayList);
+                    displayAMA.setListData(ascendingMinimaArrayList.toArray());
                 }
             }
         });

@@ -26,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Statistics.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LearnGUI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LearnGUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LearnGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="94" column="55" selection-start-line="94" selection-start-column="55" selection-end-line="94" selection-end-column="55" />
+            <state relative-caret-position="306">
+              <caret line="102" column="82" selection-start-line="102" selection-start-column="82" selection-end-line="102" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#750#1046#0" expanded="true" />
@@ -65,26 +65,16 @@
                 <element signature="e#2647#2648#0" expanded="true" />
                 <element signature="e#2688#3072#0" expanded="true" />
                 <element signature="e#3071#3072#0" expanded="true" />
+                <element signature="e#3752#4172#0" expanded="true" />
+                <element signature="e#4171#4172#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LearnGUI.form" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LearnGUI.form" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LearnGUI.form">
           <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file leaf-file-name="AscendingMinimaAlgorithmTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AscendingMinimaAlgorithmTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-867">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -116,8 +106,8 @@
         <option value="$PROJECT_DIR$/src/main/LearnGUI.jfd" />
         <option value="$PROJECT_DIR$/src/main/LearnGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/Statistics.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LearnGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/LearnGUI.form" />
+        <option value="$PROJECT_DIR$/src/main/java/LearnGUI.java" />
       </list>
     </option>
   </component>
@@ -170,6 +160,27 @@
               <item name="learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnGUI" type="e9f4de52:FormNode" />
             </path>
             <path>
               <item name="learning" type="b2602c69:ProjectViewProjectNode" />
@@ -615,16 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AscendingMinimaAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestStatistics.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -659,15 +660,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Statistics.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StatisticsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="941">
+          <caret line="300" selection-start-line="300" selection-end-line="303" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AscendingMinimaAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LearnGUI.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AscendingMinimaAlgorithmTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -679,20 +703,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StatisticsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="941">
-          <caret line="300" selection-start-line="300" selection-end-line="303" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LearnGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="94" column="55" selection-start-line="94" selection-start-column="55" selection-end-line="94" selection-end-column="55" />
+        <state relative-caret-position="306">
+          <caret line="102" column="82" selection-start-line="102" selection-start-column="82" selection-end-line="102" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#750#1046#0" expanded="true" />
@@ -707,12 +721,11 @@
             <element signature="e#2647#2648#0" expanded="true" />
             <element signature="e#2688#3072#0" expanded="true" />
             <element signature="e#3071#3072#0" expanded="true" />
+            <element signature="e#3752#4172#0" expanded="true" />
+            <element signature="e#4171#4172#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LearnGUI.form">
-      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">
