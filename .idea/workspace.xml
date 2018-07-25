@@ -22,18 +22,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Statistics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StatisticsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StatisticsTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,35 +34,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LearnGUI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LearnGUI.java">
+      <file leaf-file-name="AscendingMinimaAlgorithm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AscendingMinimaAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="102" column="82" selection-start-line="102" selection-start-column="82" selection-end-line="102" selection-end-column="82" />
+            <state relative-caret-position="-848">
+              <caret line="31" column="40" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#750#1046#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
-                <element signature="e#1094#1393#0" expanded="true" />
-                <element signature="e#1392#1393#0" expanded="true" />
-                <element signature="e#1435#1820#0" expanded="true" />
-                <element signature="e#1819#1820#0" expanded="true" />
-                <element signature="e#1846#2231#0" expanded="true" />
-                <element signature="e#2230#2231#0" expanded="true" />
-                <element signature="e#2264#2648#0" expanded="true" />
-                <element signature="e#2647#2648#0" expanded="true" />
-                <element signature="e#2688#3072#0" expanded="true" />
-                <element signature="e#3071#3072#0" expanded="true" />
-                <element signature="e#3752#4172#0" expanded="true" />
-                <element signature="e#4171#4172#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LearnGUI.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LearnGUI.form">
-          <provider selected="true" editor-type-id="ui-designer" />
+      <file leaf-file-name="AscendingMinimaAlgorithmTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AscendingMinimaAlgorithmTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1532">
+              <caret line="368" column="76" selection-start-line="368" selection-start-column="76" selection-end-line="368" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -98,8 +79,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestLearning.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AscendingMinimaAlgorithm.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AscendingMinimaAlgorithmTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestStatistics.java" />
         <option value="$PROJECT_DIR$/src/test/java/StatisticsTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -108,6 +87,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Statistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/LearnGUI.form" />
         <option value="$PROJECT_DIR$/src/main/java/LearnGUI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AscendingMinimaAlgorithmTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AscendingMinimaAlgorithm.java" />
       </list>
     </option>
   </component>
@@ -233,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LearnGUI">
+  <component name="RunManager" selected="JUnit.AscendingMinimaAlgorithmTest.ascendingMinima4">
     <configuration name="LearnGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LearnGUI" />
       <module name="learning" />
@@ -259,6 +240,40 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="AscendingMinimaAlgorithmTest.ascendingMinima4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learning" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AscendingMinimaAlgorithmTest" />
+      <option name="METHOD_NAME" value="ascendingMinima4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AscendingMinimaAlgorithmTest.ascendingMinima5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learning" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AscendingMinimaAlgorithmTest" />
+      <option name="METHOD_NAME" value="ascendingMinima5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="StatisticsTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="learning" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -270,40 +285,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestLearning" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learning" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLearning" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestLearning.runStatisticsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learning" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLearning" />
-      <option name="METHOD_NAME" value="runStatisticsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -375,18 +356,18 @@
     <list>
       <item itemvalue="JUnit.StatisticsTest" />
       <item itemvalue="JUnit.All in learning" />
-      <item itemvalue="JUnit.TestLearning" />
-      <item itemvalue="JUnit.TestLearning.runStatisticsTest" />
       <item itemvalue="Maven.learning [test]" />
       <item itemvalue="Application.LearnGUI" />
+      <item itemvalue="JUnit.AscendingMinimaAlgorithmTest.ascendingMinima4" />
+      <item itemvalue="JUnit.AscendingMinimaAlgorithmTest.ascendingMinima5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AscendingMinimaAlgorithmTest.ascendingMinima4" />
+        <item itemvalue="JUnit.AscendingMinimaAlgorithmTest.ascendingMinima5" />
         <item itemvalue="Application.LearnGUI" />
         <item itemvalue="Maven.learning [test]" />
         <item itemvalue="JUnit.All in learning" />
-        <item itemvalue="JUnit.TestLearning.runStatisticsTest" />
-        <item itemvalue="JUnit.TestLearning" />
       </list>
     </recent_temporary>
   </component>
@@ -404,35 +385,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AscendingMinimaAlgorithmTest_ascendingMinima3 - 2018.07.20 at 15h 11m 31s.xml">
-      <configuration name="AscendingMinimaAlgorithmTest.ascendingMinima3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_learning - 2018.07.20 at 15h 11m 58s.xml">
-      <configuration name="All in learning" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StatisticsTest_out - 2018.07.20 at 15h 28m 34s.xml">
-      <configuration name="StatisticsTest.out" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StatisticsTest_out1 - 2018.07.20 at 15h 30m 04s.xml">
-      <configuration name="StatisticsTest.out1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_learning - 2018.07.20 at 15h 34m 08s.xml">
-      <configuration name="All in learning" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLearning - 2018.07.20 at 15h 34m 56s.xml">
-      <configuration name="TestLearning" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLearning_runStatisticsTest - 2018.07.20 at 15h 35m 16s.xml">
-      <configuration name="TestLearning.runStatisticsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StatisticsTest - 2018.07.20 at 15h 58m 32s.xml">
-      <configuration name="StatisticsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_learning - 2018.07.25 at 09h 59m 02s.xml">
-      <configuration name="All in learning" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_learning - 2018.07.25 at 11h 46m 32s.xml">
       <configuration name="All in learning" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AscendingMinimaAlgorithmTest_ascendingMinima4 - 2018.07.25 at 17h 28m 56s.xml">
+      <configuration name="AscendingMinimaAlgorithmTest.ascendingMinima4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AscendingMinimaAlgorithmTest_ascendingMinima4 - 2018.07.25 at 17h 30m 39s.xml">
+      <configuration name="AscendingMinimaAlgorithmTest.ascendingMinima4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AscendingMinimaAlgorithmTest_ascendingMinima4 - 2018.07.25 at 17h 31m 55s.xml">
+      <configuration name="AscendingMinimaAlgorithmTest.ascendingMinima4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AscendingMinimaAlgorithmTest_ascendingMinima4 - 2018.07.25 at 17h 32m 39s.xml">
+      <configuration name="AscendingMinimaAlgorithmTest.ascendingMinima4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AscendingMinimaAlgorithmTest_ascendingMinima5 - 2018.07.25 at 17h 32m 42s.xml">
+      <configuration name="AscendingMinimaAlgorithmTest.ascendingMinima5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AscendingMinimaAlgorithmTest_ascendingMinima4 - 2018.07.25 at 17h 35m 00s.xml">
+      <configuration name="AscendingMinimaAlgorithmTest.ascendingMinima4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AscendingMinimaAlgorithmTest_ascendingMinima5 - 2018.07.25 at 17h 35m 04s.xml">
+      <configuration name="AscendingMinimaAlgorithmTest.ascendingMinima5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AscendingMinimaAlgorithmTest_ascendingMinima4 - 2018.07.25 at 17h 37m 23s.xml">
+      <configuration name="AscendingMinimaAlgorithmTest.ascendingMinima4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AscendingMinimaAlgorithmTest_ascendingMinima4 - 2018.07.25 at 17h 43m 52s.xml">
+      <configuration name="AscendingMinimaAlgorithmTest.ascendingMinima4" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -660,53 +641,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StatisticsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="941">
-          <caret line="300" selection-start-line="300" selection-end-line="303" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AscendingMinimaAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LearnGUI.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AscendingMinimaAlgorithmTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LearnGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="102" column="82" selection-start-line="102" selection-start-column="82" selection-end-line="102" selection-end-column="82" />
+        <state relative-caret-position="36">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#750#1046#0" expanded="true" />
@@ -723,6 +661,49 @@
             <element signature="e#3071#3072#0" expanded="true" />
             <element signature="e#3752#4172#0" expanded="true" />
             <element signature="e#4171#4172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LearnGUI.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StatisticsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="941">
+          <caret line="300" selection-start-line="300" selection-end-line="303" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AscendingMinimaAlgorithmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1532">
+          <caret line="368" column="76" selection-start-line="368" selection-start-column="76" selection-end-line="368" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AscendingMinimaAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-848">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

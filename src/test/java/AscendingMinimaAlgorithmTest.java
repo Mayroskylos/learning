@@ -285,4 +285,92 @@ class AscendingMinimaAlgorithmTest {
         assertEquals(solution, ascendingMinimaArrayList,
                 "Solution of AMA in the list {POSITIVE_INFINITY, POSITIVE_INFINITY, POSITIVE_INFINITY} should be {POSITIVE_INFINITY}");
     }
+
+    /**
+     * test of ArrayList<Double> ascendingMinima2( ArrayList<Double> arrayList)
+     */
+    @Test
+    void ascendingMinima4() {
+        ArrayList<Double> arrayList = new ArrayList<>();
+        ArrayList<Double> solution = new ArrayList<>();
+        ArrayList<Double> ascendingMinimaArrayList = AscendingMinimaAlgorithm.ascendingMinima2(arrayList);
+        assertEquals(solution, ascendingMinimaArrayList, "Solution of AMA in an empty array should be empty array");
+
+        arrayList.add(6.0);
+        arrayList.add(1.0);
+        arrayList.add(4.0);
+        arrayList.add(3.0);
+        arrayList.add(2.0);
+        arrayList.add(5.0);
+        ascendingMinimaArrayList = AscendingMinimaAlgorithm.ascendingMinima2(arrayList);
+        solution.add(1.0);
+        solution.add(2.0);
+        solution.add(5.0);
+        assertEquals(solution, ascendingMinimaArrayList, "Solution of AMA in the list {6, 1, 4, 3, 2, 5} should be {1, 2, 5}");
+
+        arrayList.set(1, 5.0);
+        arrayList.set(5, 1.0);
+        ascendingMinimaArrayList = AscendingMinimaAlgorithm.ascendingMinima2(arrayList);
+        solution.clear();
+        solution.add(1.0);
+        assertEquals(solution, ascendingMinimaArrayList, "Solution of AMA in the list {6, 5, 4, 3, 2, 1} should be {1}");
+
+        arrayList.add(1.0);
+        ascendingMinimaArrayList = AscendingMinimaAlgorithm.ascendingMinima2(arrayList);
+        // solution is the same
+        assertEquals(solution, ascendingMinimaArrayList, "Solution of AMA in the list {6, 5, 4, 3, 2, 1, 1} should be {1}");
+
+        arrayList.clear();
+        arrayList.add(1.0);
+        arrayList.add(2.0);
+        arrayList.add(3.0);
+        arrayList.add(4.0);
+        arrayList.add(5.0);
+        arrayList.add(6.0);
+        ascendingMinimaArrayList = AscendingMinimaAlgorithm.ascendingMinima2(arrayList);
+        solution = arrayList;
+        assertEquals(solution, ascendingMinimaArrayList, "Solution of AMA in the list {1,2,3,4,5,6} should be {1,2,3,4,5,6}");
+
+        arrayList.clear();
+        arrayList.add(1.0);
+        arrayList.add(9.0);
+        arrayList.add(Double.NEGATIVE_INFINITY);
+        arrayList.add(3.0);
+        arrayList.add(-1.0);
+        arrayList.add(Double.POSITIVE_INFINITY);
+        arrayList.add(2.0);
+        arrayList.add(2.0);
+        arrayList.add(3.0);
+        ascendingMinimaArrayList = AscendingMinimaAlgorithm.ascendingMinima2(arrayList);
+        solution.clear();
+        solution.add(Double.NEGATIVE_INFINITY);
+        solution.add(-1.0);
+        solution.add(2.0);
+        solution.add(3.0);
+
+        assertEquals(solution, ascendingMinimaArrayList,
+                "Solution of AMA in the list {1, 9, NEGATIVE_INFINITY, 3, -1, POSITIVE_INFINITY, 2, 2, 3} should be {NEGATIVE_INFINITY, -1, 2, 3}");
+
+
+        arrayList.clear();
+        arrayList.add(Double.NEGATIVE_INFINITY);
+        arrayList.add(Double.NEGATIVE_INFINITY);
+        arrayList.add(Double.NEGATIVE_INFINITY);
+        ascendingMinimaArrayList = AscendingMinimaAlgorithm.ascendingMinima2(arrayList);
+        solution.clear();
+        solution.add(Double.NEGATIVE_INFINITY);
+        assertEquals(solution, ascendingMinimaArrayList,
+                "Solution of AMA in the list {NEGATIVE_INFINITY, NEGATIVE_INFINITY, NEGATIVE_INFINITY} should be {NEGATIVE_INFINITY}");
+
+        arrayList.clear();
+        arrayList.add(Double.POSITIVE_INFINITY);
+        arrayList.add(Double.POSITIVE_INFINITY);
+        arrayList.add(Double.POSITIVE_INFINITY);
+        ascendingMinimaArrayList = AscendingMinimaAlgorithm.ascendingMinima2(arrayList);
+        solution.clear();
+        solution.add(Double.POSITIVE_INFINITY);
+        assertEquals(solution, ascendingMinimaArrayList,
+                "Solution of AMA in the list {POSITIVE_INFINITY, POSITIVE_INFINITY, POSITIVE_INFINITY} should be {POSITIVE_INFINITY}");
+    }
+
 }
