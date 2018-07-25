@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Statistics {
+class Statistics {
 
     /**
      * Finds the minimum value of an array.
