@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class AscendingMinimaAlgorithm {
+class AscendingMinimaAlgorithm {
     /**
      * Applies the ascending minima algorithm to an array.
      *
