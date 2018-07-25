@@ -15,7 +15,7 @@
       <entry key="properties.expanded.events" value="true" />
       <entry key="properties.expanded.bindings" value="true" />
       <node name="forms">
-        <entry key="selection1543228176" value="this" />
+        <entry key="selection1543228176" value="maxBtn" />
       </node>
     </node>
   </component>
